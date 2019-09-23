@@ -6,7 +6,7 @@ Try to dockerize python web application with different solution
 - build docker image
 
     ```
-    $ docker build -t gunicorn -f Dockerfile-gunicorn
+    $ docker build -t gunicorn -f Dockerfile-gunicorn .
     ```
 - run docker 
     ```
@@ -33,7 +33,7 @@ Try to dockerize python web application with different solution
 - build docker image
 
     ```
-    $ docker build -t wsgi -f Dockerfile-wsgi
+    $ docker build -t uwsgi -f Dockerfile-uwsgi .
     ```
 
 - run docker 
